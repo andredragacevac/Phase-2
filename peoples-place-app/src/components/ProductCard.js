@@ -1,10 +1,13 @@
 import React from 'react'
 
-function ProductCard() {
+function ProductCard({ product }) {
+   //destructure properties of props object
+   const { id, name, about, size } = product;
+   
   return (
    <li className="card">
       <figure className="image">
-         <img src={image} alt={name} />
+         <img />
          <button className="favorite">
             Fav
          </button>
