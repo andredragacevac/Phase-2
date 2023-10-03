@@ -1,12 +1,9 @@
-import StockProductList from "./components/StockProductList";
-import products from "./products";
+import StockProductContainer from "./components/StockProductContainer";
 
 function App() {
   return (
     <div className="App">
-      <StockProductList 
-        products={products}
-      />
+      <StockProductContainer />
     </div>
   );
 }
