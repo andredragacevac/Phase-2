@@ -1,11 +1,12 @@
-import { useState } from 'react'
 import ProductCard from './ProductCard'
 
-function StockProductList({ products, onFavoriteProduct, onLoadProducts}) {
-   //accepts products as props
-   //destructures products from props obj
-   const [ searchQuery, setSearchQuery ] = useState("");
-   //change what is rendered based on searchQuery
+function StockProductList({ 
+   products, 
+   onFavoriteProduct,
+   searchQuery,
+   setSearchQuery,
+   setSelectedCat
+}) {
 
    //searchResults filters through the array of products and returns
    //product if name matches searchQuery
@@ -24,19 +25,28 @@ function StockProductList({ products, onFavoriteProduct, onLoadProducts}) {
             onFavoriteProduct={onFavoriteProduct}
          />
       )
-   })//provide key prop set to product id value
+   })
+   //provide key prop set to product id value
    //provide each product object as a prop 
    //to pass to ProductCard
 
-   //
    const handleOnChange = (e) => {
       setSearchQuery(e.target.value)
    }
+
   return (
    <section>
-      <button onClick={onLoadProducts}>Load Products</button>
       <h2>All Products</h2>
-      <input type='text' placeholder='Search...' onChange={handleOnChange}></input>
+      <input type='text' 
+         placeholder='Search...' 
+         onChange={handleOnChange}
+         value={searchQuery}
+      />
+      <div className="filter">
+        <button onClick={() => setSelectedCat("")}>All</button>
+        <button onClick={() => setSelectedCat("5")}>Clothing</button>
+        <button onClick={() => setSelectedCat("4")}>Shoes</button> 
+      </div>
       <ul className='cards'>{productCards}</ul>
    </section>
   )
