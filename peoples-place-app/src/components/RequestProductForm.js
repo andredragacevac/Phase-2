@@ -1,29 +1,41 @@
 import {useState} from 'react'
 
-const initialFormState = {
+const initialState = {
   category: "",
   name: "",
-  size: "--",
+  size: "",
   image: ""
 }
 function RequestProductForm({ onSubmitRequest }) {
-  const [formData, setFormData] = useState(initialFormState)
+  const [formData, setFormData] = useState(initialState)
   const { name, category, size, image } = formData;
 
   const handleOnChange = (e) => {
     const { name, value } = e.target;
-
-    setFormData(formData => {
-      return {
-        ...formData,
-        [name]: value
-      }
-    })
+    setFormData(formData => ({...formData, [name]: value}))
   }
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   onSubmitRequest(formData);
+  //   setFormData(initialFormState);
+  // }
+
+  //persist projects to db on submit
   const handleSubmit = (e) => {
     e.preventDefault();
-    onSubmitRequest(formData);
-    setFormData(initialFormState);
+    fetch("http://localhost:4000/requests", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ ...formData})
+    })
+      .then((response) => response.json())
+      .then((newProject) => {
+        onSubmitRequest(newProject);
+        setFormData(initialState);
+      });
   }
 
   return (
@@ -38,6 +50,7 @@ function RequestProductForm({ onSubmitRequest }) {
         //onchange update form to display different types of sizes
         onChange={handleOnChange}
       >
+        <option>Select Category</option>
         <option value="shoe">Shoes</option>
         <option value="clothing">Clothing</option>
       </select>
@@ -58,6 +71,7 @@ function RequestProductForm({ onSubmitRequest }) {
         value={size}
         onChange={handleOnChange}
       >
+        <option>Select Size</option>
         <option value="xxxs">xxxs</option>
         <option value="xxs">xxs</option>
         <option value="xs">xs</option>
@@ -67,6 +81,26 @@ function RequestProductForm({ onSubmitRequest }) {
         <option value="xl">xl</option>
         <option value="xxl">xxl</option>
         <option value="xxxl">xxxl</option>
+        <option value="3.5">3.5</option>
+        <option value="4">4</option>
+        <option value="4.5">4.5</option>
+        <option value="5">5</option>
+        <option value="5.5">5.5</option>
+        <option value="6">6</option>
+        <option value="6.5">6.5</option>
+        <option value="7">7</option>
+        <option value="7.5">7.5</option>
+        <option value="8">8</option>
+        <option value="8.5">8.5</option>
+        <option value="9">9</option>
+        <option value="9.5">9.5</option>
+        <option value="10">10</option>
+        <option value="10.5">10.5</option>
+        <option value="11">11</option>
+        <option value="11.5">11.5</option>
+        <option value="12">12</option>
+        <option value="12.5">12.5</option>
+        <option value="13">13</option>
       </select>
 
       <label htmlFor="image">Screenshot</label>

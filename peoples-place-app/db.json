@@ -6,8 +6,7 @@
       "name": "Air Jordan 1 Retro High'UNC Toe'",
       "about": "",
       "size": 4,
-      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/090/732/810/original/1145907_01.jpg.jpeg?action=crop&width=400",
-      "liked": false
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/090/732/810/original/1145907_01.jpg.jpeg?action=crop&width=400"
     },
     {
       "id": 2,
@@ -15,8 +14,7 @@
       "name": "Air Jordan 1 Low OG 'Black Toe'",
       "about": "",
       "size": 2,
-      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/089/144/193/original/1163623_01.jpg.jpeg?action=crop&width=400",
-      "liked": false
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/089/144/193/original/1163623_01.jpg.jpeg?action=crop&width=400"
     },
     {
       "id": 3,
@@ -24,80 +22,71 @@
       "name": "SB Dunk Low 'Why So Sad?'",
       "about": "",
       "size": 4,
-      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/079/189/812/original/997445_01.jpg.jpeg?action=crop&width=400",
-      "liked": false
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/079/189/812/original/997445_01.jpg.jpeg?action=crop&width=400"
     },
     {
-      "id": 11,
+      "id": 4,
       "category": "shoe",
       "name": "SB Dunk Low 'Born and Raised'",
       "about": "",
       "size": 4,
-      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/087/982/080/original/1131716_01.jpg.jpeg?action=crop&width=400",
-      "liked": false
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/087/982/080/original/1131716_01.jpg.jpeg?action=crop&width=400"
     },
     {
-      "id": 12,
+      "id": 5,
       "category": "shoe",
       "name": "Air Jordan 4 Retro 'Red Cement'",
       "about": "",
       "size": 4,
-      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/091/232/340/original/1200361_01.jpg.jpeg?action=crop&width=400",
-      "liked": false
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/091/232/340/original/1200361_01.jpg.jpeg?action=crop&width=400"
     },
     {
-      "id": 13,
+      "id": 6,
       "category": "shoe",
       "name": "Nike Dunk Low 'Panda'",
       "about": "",
       "size": 4,
-      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/071/445/310/original/719082_01.jpg.jpeg?action=crop&width=400",
-      "liked": false
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/071/445/310/original/719082_01.jpg.jpeg?action=crop&width=400"
     },
     {
-      "id": 20,
+      "id": 7,
       "category": "shoe",
       "name": "Nike Dunk Low 'Cacao Wow",
       "about": "",
       "size": 3,
-      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/090/667/526/original/1221539_01.jpg.jpeg?action=crop&width=400",
-      "liked": false
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/090/667/526/original/1221539_01.jpg.jpeg?action=crop&width=400"
     },
     {
-      "id": 22,
+      "id": 8,
       "category": "shoe",
       "name": "Air Jordan 3 Retro 'Medellin Sunset'",
       "about": "",
       "size": 3,
-      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/093/246/784/original/1220961_01.jpg.jpeg?action=crop&width=400",
-      "liked": false
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/093/246/784/original/1220961_01.jpg.jpeg?action=crop&width=400"
     },
     {
-      "id": 23,
+      "id": 9,
       "category": "shoe",
       "name": "Supreme x SB Dunk Low 'Rammellzee'",
       "about": "",
       "size": 3,
-      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/090/180/093/original/1166591_01.jpg.jpeg?action=crop&width=400",
-      "liked": false
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/090/180/093/original/1166591_01.jpg.jpeg?action=crop&width=400"
     },
     {
-      "id": 24,
+      "id": 10,
       "category": "shoe",
       "name": "Yeezy Boost 700 'Wave Runner'",
       "about": "",
       "size": 4,
-      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/092/494/732/original/1268737_01.jpg.jpeg?action=crop&width=400",
-      "liked": false
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/092/494/732/original/1268737_01.jpg.jpeg?action=crop&width=400"
     },
     {
-      "id": 25,
+      "id": 11,
       "category": "shoe",
       "name": "Air Jordan 11 Retro 'Cherry'",
       "about": "",
       "size": 4,
-      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/081/526/429/original/920713_01.jpg.jpeg?action=crop&width=400",
-      "liked": false
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/081/526/429/original/920713_01.jpg.jpeg?action=crop&width=400"
     },
     {
       "category": "shoe",
@@ -105,14 +94,45 @@
       "about": "",
       "size": "4",
       "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/092/006/203/original/1209354_01.jpg.jpeg?action=crop&width=400",
-      "id": 26,
-      "liked": false
+      "id": 12
+    },
+    {
+      "category": "clothing",
+      "name": "Fear of God Essentials Hoodie 'Jet Black'",
+      "about": "",
+      "size": "4",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/089/616/527/original/1224575_01.jpg.jpeg?action=crop&width=600",
+      "id": 13
     }
   ],
-
-  "favorites": [
-  ],
-
   "requests": [
+    {
+      "category": "shoe",
+      "name": "Pine green",
+      "size": "7",
+      "image": "",
+      "id": 1
+    },
+    {
+      "category": "shoe",
+      "name": "A",
+      "size": "7",
+      "image": "",
+      "id": 2
+    },
+    {
+      "category": "shoe",
+      "name": "aa",
+      "size": "9",
+      "image": "",
+      "id": 3
+    },
+    {
+      "category": "shoe",
+      "name": "hello",
+      "size": "5",
+      "image": "",
+      "id": 4
+    }
   ]
 }
