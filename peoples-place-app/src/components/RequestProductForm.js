@@ -15,13 +15,8 @@ function RequestProductForm({ onSubmitRequest }) {
     setFormData(formData => ({...formData, [name]: value}))
   }
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   onSubmitRequest(formData);
-  //   setFormData(initialFormState);
-  // }
 
-  //persist projects to db on submit
+  //persist products to db on submit
   const handleSubmit = (e) => {
     e.preventDefault();
     fetch("http://localhost:4000/requests", {
@@ -32,8 +27,8 @@ function RequestProductForm({ onSubmitRequest }) {
       body: JSON.stringify({ ...formData})
     })
       .then((response) => response.json())
-      .then((newProject) => {
-        onSubmitRequest(newProject);
+      .then((newProduct) => {
+        onSubmitRequest(newProduct);
         setFormData(initialState);
       });
   }
